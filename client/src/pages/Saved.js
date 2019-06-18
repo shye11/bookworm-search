@@ -37,9 +37,9 @@ class Saved extends Component {
           <Col size="md-12">
             <Jumbotron>
               <h1 className="text-center">
-                <strong>(React) Google Books Search</strong>
+                <strong>The Bookwormer's Search</strong>
               </h1>
-              <h2 className="text-center">Search for and Save Books of Interest.</h2>
+              <h2 className="text-center">Search for a book to get started!</h2>
             </Jumbotron>
           </Col>
         </Row>
@@ -60,7 +60,7 @@ class Saved extends Component {
                       Button={() => (
                         <button
                           onClick={() => this.handleBookDelete(book._id)}
-                          className="btn btn-danger ml-2"
+                          className="btn btn-primary ml-2"
                         >
                           Delete
                         </button>
