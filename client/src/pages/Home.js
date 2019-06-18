@@ -32,7 +32,7 @@ class Home extends Component {
       .catch(() =>
         this.setState({
           books: [],
-          message: "Oops! No books match that searc. Please try again!"
+          message: "Oops! No books match that search. Please try again!"
         })
       );
   };
